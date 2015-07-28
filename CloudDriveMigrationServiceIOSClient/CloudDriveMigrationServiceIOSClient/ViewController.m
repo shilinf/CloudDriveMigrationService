@@ -12,6 +12,7 @@
 @interface ViewController ()
 
 @property (strong) UIButton* onedriveSignInBtn;
+@property (strong) UIButton* dropboxSignInBtn;
 
 @end
 
@@ -31,6 +32,12 @@ NSString* APP_CLIENT_ID=@"0000000048160A9A";
     [self.onedriveSignInBtn addTarget:self action:@selector(onedriveBtnPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.onedriveSignInBtn];
     
+    self.dropboxSignInBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    self.dropboxSignInBtn.frame = CGRectMake((self.view.frame.size.width-200)/2, 150, 200, 50);
+    [self.dropboxSignInBtn setTitle:@"Dropbox Sign In" forState:UIControlStateNormal];
+    [self.dropboxSignInBtn addTarget:self action:@selector(dropboxBtnPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.dropboxSignInBtn];
+    
     infoLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 200, 50)];
 
     infoLabel.text = @"aaa";
@@ -43,9 +50,17 @@ NSString* APP_CLIENT_ID=@"0000000048160A9A";
 }
 
 - (void)onedriveBtnPressed: (UIButton*) sender {
+    NSLog(@"onedriveBtnPressed");
     self.liveClient = [[LiveConnectClient alloc] initWithClientId:APP_CLIENT_ID
                                                          delegate:self
                                                         userState:@"initialize"];
+}
+
+- (void)dropboxBtnPressed: (UIButton*) sender {
+    NSLog(@"dropboxBtnPressed");
+    if (![[DBSession sharedSession] isLinked]) {
+        [[DBSession sharedSession] linkFromController:self];
+    }
 }
 
 - (void)authCompleted:(LiveConnectSessionStatus) status

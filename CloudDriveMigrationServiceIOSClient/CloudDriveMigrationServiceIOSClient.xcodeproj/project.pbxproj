@@ -1,993 +1,528 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0CE15E2A5FDA891811EDE186</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61382824A2BE3A4E121064B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E136F61B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E137011B67351000EC560B</string>
-				<string>10E1371B1B67351000EC560B</string>
-				<string>10E137001B67351000EC560B</string>
-				<string>731C44FE0D8EFEAE0A96C958</string>
-				<string>52012D9CDF3F70DD0FE1FBED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E136F71B67351000EC560B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0630</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Microsoft</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>10E136FE1B67351000EC560B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.3.2</string>
-					</dict>
-					<key>10E137171B67351000EC560B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.3.2</string>
-						<key>TestTargetID</key>
-						<string>10E136FE1B67351000EC560B</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>10E136FA1B67351000EC560B</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>10E136F61B67351000EC560B</string>
-			<key>productRefGroup</key>
-			<string>10E137001B67351000EC560B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>10E136FE1B67351000EC560B</string>
-				<string>10E137171B67351000EC560B</string>
-			</array>
-		</dict>
-		<key>10E136FA1B67351000EC560B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>10E137201B67351000EC560B</string>
-				<string>10E137211B67351000EC560B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>10E136FB1B67351000EC560B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>10E1370B1B67351000EC560B</string>
-				<string>10E137081B67351000EC560B</string>
-				<string>10E137051B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10E136FC1B67351000EC560B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0CE15E2A5FDA891811EDE186</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10E136FD1B67351000EC560B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>10E1370E1B67351000EC560B</string>
-				<string>10E137131B67351000EC560B</string>
-				<string>10E137101B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10E136FE1B67351000EC560B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>10E137221B67351000EC560B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AB9ADFFD6997C930CA602FA3</string>
-				<string>10E136FB1B67351000EC560B</string>
-				<string>10E136FC1B67351000EC560B</string>
-				<string>10E136FD1B67351000EC560B</string>
-				<string>799B29249DEEC24AD12566AF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CloudDriveMigrationServiceIOSClient</string>
-			<key>productName</key>
-			<string>CloudDriveMigrationServiceIOSClient</string>
-			<key>productReference</key>
-			<string>10E136FF1B67351000EC560B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>10E136FF1B67351000EC560B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CloudDriveMigrationServiceIOSClient.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>10E137001B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E136FF1B67351000EC560B</string>
-				<string>10E137181B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137011B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E1372C1B6742E400EC560B</string>
-				<string>10E137061B67351000EC560B</string>
-				<string>10E137071B67351000EC560B</string>
-				<string>10E137091B67351000EC560B</string>
-				<string>10E1370A1B67351000EC560B</string>
-				<string>10E1370C1B67351000EC560B</string>
-				<string>10E1370F1B67351000EC560B</string>
-				<string>10E137111B67351000EC560B</string>
-				<string>10E137021B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CloudDriveMigrationServiceIOSClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137021B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E137031B67351000EC560B</string>
-				<string>10E137041B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137031B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137041B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137051B67351000EC560B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10E137041B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E137061B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137071B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137081B67351000EC560B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10E137071B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E137091B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1370A1B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1370B1B67351000EC560B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10E1370A1B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E1370C1B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E1370D1B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1370D1B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1370E1B67351000EC560B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10E1370C1B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E1370F1B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137101B67351000EC560B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10E1370F1B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E137111B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E137121B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137121B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E137131B67351000EC560B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10E137111B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E137141B67351000EC560B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>10E1371F1B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10E137151B67351000EC560B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10E137161B67351000EC560B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10E137171B67351000EC560B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>10E137251B67351000EC560B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>10E137141B67351000EC560B</string>
-				<string>10E137151B67351000EC560B</string>
-				<string>10E137161B67351000EC560B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>10E1371A1B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CloudDriveMigrationServiceIOSClientTests</string>
-			<key>productName</key>
-			<string>CloudDriveMigrationServiceIOSClientTests</string>
-			<key>productReference</key>
-			<string>10E137181B67351000EC560B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>10E137181B67351000EC560B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CloudDriveMigrationServiceIOSClientTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>10E137191B67351000EC560B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>10E136F71B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>10E136FE1B67351000EC560B</string>
-			<key>remoteInfo</key>
-			<string>CloudDriveMigrationServiceIOSClient</string>
-		</dict>
-		<key>10E1371A1B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>10E136FE1B67351000EC560B</string>
-			<key>targetProxy</key>
-			<string>10E137191B67351000EC560B</string>
-		</dict>
-		<key>10E1371B1B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E1371E1B67351000EC560B</string>
-				<string>10E1371C1B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>CloudDriveMigrationServiceIOSClientTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1371C1B67351000EC560B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>10E1371D1B67351000EC560B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1371D1B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1371E1B67351000EC560B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CloudDriveMigrationServiceIOSClientTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10E1371F1B67351000EC560B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10E1371E1B67351000EC560B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10E137201B67351000EC560B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>10E137211B67351000EC560B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>10E137221B67351000EC560B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>10E137231B67351000EC560B</string>
-				<string>10E137241B67351000EC560B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>10E137231B67351000EC560B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2862F9E2F581B3A00260C2C1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)/CloudDriveMigrationServiceIOSClient</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudDriveMigrationServiceIOSClient/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>10E137241B67351000EC560B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>58923F608C7B66514D01AD6A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)/CloudDriveMigrationServiceIOSClient</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudDriveMigrationServiceIOSClient/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>10E137251B67351000EC560B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>10E137261B67351000EC560B</string>
-				<string>10E137271B67351000EC560B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>10E137261B67351000EC560B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudDriveMigrationServiceIOSClientTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CloudDriveMigrationServiceIOSClient.app/CloudDriveMigrationServiceIOSClient</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>10E137271B67351000EC560B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CloudDriveMigrationServiceIOSClientTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CloudDriveMigrationServiceIOSClient.app/CloudDriveMigrationServiceIOSClient</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>10E1372C1B6742E400EC560B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2862F9E2F581B3A00260C2C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52012D9CDF3F70DD0FE1FBED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61382824A2BE3A4E121064B3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58923F608C7B66514D01AD6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61382824A2BE3A4E121064B3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>731C44FE0D8EFEAE0A96C958</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2862F9E2F581B3A00260C2C1</string>
-				<string>58923F608C7B66514D01AD6A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>799B29249DEEC24AD12566AF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AB9ADFFD6997C930CA602FA3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>10E136F71B67351000EC560B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE15E2A5FDA891811EDE186 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61382824A2BE3A4E121064B3 /* libPods.a */; };
+		10E0DD3D1B6763B90069B218 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0DD3C1B6763B90069B218 /* DropboxSDK.framework */; };
+		10E0DD3F1B67640B0069B218 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0DD3E1B67640B0069B218 /* Security.framework */; };
+		10E0DD411B6764180069B218 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0DD401B6764180069B218 /* QuartzCore.framework */; };
+		10E137051B67351000EC560B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E137041B67351000EC560B /* main.m */; };
+		10E137081B67351000EC560B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E137071B67351000EC560B /* AppDelegate.m */; };
+		10E1370B1B67351000EC560B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1370A1B67351000EC560B /* ViewController.m */; };
+		10E1370E1B67351000EC560B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E1370C1B67351000EC560B /* Main.storyboard */; };
+		10E137101B67351000EC560B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E1370F1B67351000EC560B /* Images.xcassets */; };
+		10E137131B67351000EC560B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E137111B67351000EC560B /* LaunchScreen.xib */; };
+		10E1371F1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1371E1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10E137191B67351000EC560B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10E136F71B67351000EC560B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10E136FE1B67351000EC560B;
+			remoteInfo = CloudDriveMigrationServiceIOSClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E0DD3C1B6763B90069B218 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		10E0DD3E1B67640B0069B218 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		10E0DD401B6764180069B218 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10E136FF1B67351000EC560B /* CloudDriveMigrationServiceIOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudDriveMigrationServiceIOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E137031B67351000EC560B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E137041B67351000EC560B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10E137061B67351000EC560B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10E137071B67351000EC560B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10E137091B67351000EC560B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10E1370A1B67351000EC560B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10E1370D1B67351000EC560B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10E1370F1B67351000EC560B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10E137121B67351000EC560B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		10E137181B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudDriveMigrationServiceIOSClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E1371D1B67351000EC560B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E1371E1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudDriveMigrationServiceIOSClientTests.m; sourceTree = "<group>"; };
+		2862F9E2F581B3A00260C2C1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		58923F608C7B66514D01AD6A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		61382824A2BE3A4E121064B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E136FC1B67351000EC560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0DD411B6764180069B218 /* QuartzCore.framework in Frameworks */,
+				10E0DD3F1B67640B0069B218 /* Security.framework in Frameworks */,
+				10E0DD3D1B6763B90069B218 /* DropboxSDK.framework in Frameworks */,
+				0CE15E2A5FDA891811EDE186 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E137151B67351000EC560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E136F61B67351000EC560B = {
+			isa = PBXGroup;
+			children = (
+				10E137011B67351000EC560B /* CloudDriveMigrationServiceIOSClient */,
+				10E1371B1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests */,
+				10E137001B67351000EC560B /* Products */,
+				731C44FE0D8EFEAE0A96C958 /* Pods */,
+				52012D9CDF3F70DD0FE1FBED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10E137001B67351000EC560B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E136FF1B67351000EC560B /* CloudDriveMigrationServiceIOSClient.app */,
+				10E137181B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E137011B67351000EC560B /* CloudDriveMigrationServiceIOSClient */ = {
+			isa = PBXGroup;
+			children = (
+				10E0DD3C1B6763B90069B218 /* DropboxSDK.framework */,
+				10E1372C1B6742E400EC560B /* Resources */,
+				10E137061B67351000EC560B /* AppDelegate.h */,
+				10E137071B67351000EC560B /* AppDelegate.m */,
+				10E137091B67351000EC560B /* ViewController.h */,
+				10E1370A1B67351000EC560B /* ViewController.m */,
+				10E1370C1B67351000EC560B /* Main.storyboard */,
+				10E1370F1B67351000EC560B /* Images.xcassets */,
+				10E137111B67351000EC560B /* LaunchScreen.xib */,
+				10E137021B67351000EC560B /* Supporting Files */,
+			);
+			path = CloudDriveMigrationServiceIOSClient;
+			sourceTree = "<group>";
+		};
+		10E137021B67351000EC560B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E137031B67351000EC560B /* Info.plist */,
+				10E137041B67351000EC560B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10E1371B1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				10E1371E1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.m */,
+				10E1371C1B67351000EC560B /* Supporting Files */,
+			);
+			path = CloudDriveMigrationServiceIOSClientTests;
+			sourceTree = "<group>";
+		};
+		10E1371C1B67351000EC560B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E1371D1B67351000EC560B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10E1372C1B6742E400EC560B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		52012D9CDF3F70DD0FE1FBED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E0DD401B6764180069B218 /* QuartzCore.framework */,
+				10E0DD3E1B67640B0069B218 /* Security.framework */,
+				61382824A2BE3A4E121064B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		731C44FE0D8EFEAE0A96C958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2862F9E2F581B3A00260C2C1 /* Pods.debug.xcconfig */,
+				58923F608C7B66514D01AD6A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E136FE1B67351000EC560B /* CloudDriveMigrationServiceIOSClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E137221B67351000EC560B /* Build configuration list for PBXNativeTarget "CloudDriveMigrationServiceIOSClient" */;
+			buildPhases = (
+				AB9ADFFD6997C930CA602FA3 /* Check Pods Manifest.lock */,
+				10E136FB1B67351000EC560B /* Sources */,
+				10E136FC1B67351000EC560B /* Frameworks */,
+				10E136FD1B67351000EC560B /* Resources */,
+				799B29249DEEC24AD12566AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudDriveMigrationServiceIOSClient;
+			productName = CloudDriveMigrationServiceIOSClient;
+			productReference = 10E136FF1B67351000EC560B /* CloudDriveMigrationServiceIOSClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10E137171B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E137251B67351000EC560B /* Build configuration list for PBXNativeTarget "CloudDriveMigrationServiceIOSClientTests" */;
+			buildPhases = (
+				10E137141B67351000EC560B /* Sources */,
+				10E137151B67351000EC560B /* Frameworks */,
+				10E137161B67351000EC560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E1371A1B67351000EC560B /* PBXTargetDependency */,
+			);
+			name = CloudDriveMigrationServiceIOSClientTests;
+			productName = CloudDriveMigrationServiceIOSClientTests;
+			productReference = 10E137181B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E136F71B67351000EC560B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					10E136FE1B67351000EC560B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					10E137171B67351000EC560B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 10E136FE1B67351000EC560B;
+					};
+				};
+			};
+			buildConfigurationList = 10E136FA1B67351000EC560B /* Build configuration list for PBXProject "CloudDriveMigrationServiceIOSClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E136F61B67351000EC560B;
+			productRefGroup = 10E137001B67351000EC560B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E136FE1B67351000EC560B /* CloudDriveMigrationServiceIOSClient */,
+				10E137171B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E136FD1B67351000EC560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E1370E1B67351000EC560B /* Main.storyboard in Resources */,
+				10E137131B67351000EC560B /* LaunchScreen.xib in Resources */,
+				10E137101B67351000EC560B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E137161B67351000EC560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		799B29249DEEC24AD12566AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9ADFFD6997C930CA602FA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E136FB1B67351000EC560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E1370B1B67351000EC560B /* ViewController.m in Sources */,
+				10E137081B67351000EC560B /* AppDelegate.m in Sources */,
+				10E137051B67351000EC560B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E137141B67351000EC560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E1371F1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E1371A1B67351000EC560B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10E136FE1B67351000EC560B /* CloudDriveMigrationServiceIOSClient */;
+			targetProxy = 10E137191B67351000EC560B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10E1370C1B67351000EC560B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E1370D1B67351000EC560B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10E137111B67351000EC560B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E137121B67351000EC560B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E137201B67351000EC560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E137211B67351000EC560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E137231B67351000EC560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2862F9E2F581B3A00260C2C1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CloudDriveMigrationServiceIOSClient",
+				);
+				INFOPLIST_FILE = CloudDriveMigrationServiceIOSClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10E137241B67351000EC560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58923F608C7B66514D01AD6A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CloudDriveMigrationServiceIOSClient",
+				);
+				INFOPLIST_FILE = CloudDriveMigrationServiceIOSClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10E137261B67351000EC560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudDriveMigrationServiceIOSClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudDriveMigrationServiceIOSClient.app/CloudDriveMigrationServiceIOSClient";
+			};
+			name = Debug;
+		};
+		10E137271B67351000EC560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudDriveMigrationServiceIOSClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudDriveMigrationServiceIOSClient.app/CloudDriveMigrationServiceIOSClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E136FA1B67351000EC560B /* Build configuration list for PBXProject "CloudDriveMigrationServiceIOSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E137201B67351000EC560B /* Debug */,
+				10E137211B67351000EC560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E137221B67351000EC560B /* Build configuration list for PBXNativeTarget "CloudDriveMigrationServiceIOSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E137231B67351000EC560B /* Debug */,
+				10E137241B67351000EC560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E137251B67351000EC560B /* Build configuration list for PBXNativeTarget "CloudDriveMigrationServiceIOSClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E137261B67351000EC560B /* Debug */,
+				10E137271B67351000EC560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10E136F71B67351000EC560B /* Project object */;
+}

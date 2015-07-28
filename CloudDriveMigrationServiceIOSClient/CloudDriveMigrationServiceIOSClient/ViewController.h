@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <LiveSDK/LiveConnectClient.h>
+#import <DropboxSDK/DropboxSDK.h>
 
 @interface ViewController : UIViewController<LiveAuthDelegate, LiveOperationDelegate,
 LiveDownloadOperationDelegate, LiveUploadOperationDelegate>
