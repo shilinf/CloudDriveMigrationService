@@ -8,20 +8,23 @@ PORT = 5050
 
 class HttpRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     def do_POST(self):
-        print "------------------------------------------------------------------------------------"
-        print "get request"
-        contentType = self.headers.getheader('content-type')
-        # check the json
-        if contentType == 'application/json':
-            length = int(self.headers.getheader('content-length'))
-            rawData = self.rfile.read(length)
-            driveRequest = json.loads(rawData)
-            dropboxToken = driveRequest["dropboxToken"]
-            onedriveToken =  driveRequest["onedriveToken"]
-            fromPath = driveRequest["fromPath"]
-            connection.slave(dropboxToken, onedriveToken, fromPath)
-        print "------------------------------------------------------------------------------------"
-        print "request completed"
+        try:
+            print "------------------------------------------------------------------------------------"
+            print "get request"
+            contentType = self.headers.getheader('content-type')
+            # check the json
+            if contentType == 'application/json':
+                length = int(self.headers.getheader('content-length'))
+                rawData = self.rfile.read(length)
+                driveRequest = json.loads(rawData)
+                dropboxToken = driveRequest["dropboxToken"]
+                onedriveToken =  driveRequest["onedriveToken"]
+                fromPath = driveRequest["fromPath"]
+                connection.slave(dropboxToken, onedriveToken, fromPath)
+            print "------------------------------------------------------------------------------------"
+            print "request completed"
+        except Exception:
+            pass
         return
 
 
