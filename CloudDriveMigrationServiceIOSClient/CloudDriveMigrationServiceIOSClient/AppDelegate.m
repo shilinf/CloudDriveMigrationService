@@ -48,4 +48,35 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url
+  sourceApplication:(NSString *)source annotation:(id)annotation {
+    if ([[DBSession sharedSession] handleOpenURL:url]) {
+        if ([[DBSession sharedSession] isLinked]) {
+            NSLog(@"App linked successfully!");
+            // At this point you can start making API calls
+            //[DBSession sharedSession]
+            //[[NSUserDefaults standardUserDefaults]setObject: self.liveClient.session.accessToken forKey:@"onedriveToken"];
+            NSLog([url query]);
+            NSString* query = [url query];
+            NSArray* queryArray = [query componentsSeparatedByString:@"&"];
+            NSString* token;
+            NSString* secret;
+            for (id q in queryArray) {
+                NSArray* qcomps = [q componentsSeparatedByString:@"="];
+                if ([qcomps count] >= 2 && [@"oauth_token" isEqualToString:[qcomps objectAtIndex:0]]) {
+                    token = [qcomps objectAtIndex:1];
+                } else if ([qcomps count] >= 2 && [@"oauth_token_secret" isEqualToString:[qcomps objectAtIndex:0]]) {
+                    secret = [qcomps objectAtIndex:1];
+                }
+            }
+            NSString* combToken = [NSString stringWithFormat:@"%@,%@", token, secret];
+            NSLog(combToken);
+            [[NSUserDefaults standardUserDefaults]setObject: combToken forKey:@"dropboxToken"];
+        }
+        return YES;
+    }
+    // Add whatever other url handling code your app requires here
+    return NO;
+}
+
 @end
