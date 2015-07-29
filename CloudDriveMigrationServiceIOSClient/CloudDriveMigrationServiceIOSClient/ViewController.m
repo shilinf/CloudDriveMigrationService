@@ -87,8 +87,8 @@ NSString* APP_CLIENT_ID=@"0000000048160A9A";
     [dict setObject:[[NSUserDefaults standardUserDefaults] objectForKey:@"dropboxToken"] forKey:@"dropboxToken"];
     [dict setObject:@"dropbox" forKey:@"fromDrive"];
     [dict setObject:@"onedrive" forKey:@"toDrive"];
-    [dict setObject:@"/Test" forKey:@"fromPath"];
-    [dict setObject:@"/Test" forKey:@"toPath"];
+    [dict setObject:@"/" forKey:@"fromPath"];
+    [dict setObject:@"/" forKey:@"toPath"];
     NSData* postData = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
     
     // request
