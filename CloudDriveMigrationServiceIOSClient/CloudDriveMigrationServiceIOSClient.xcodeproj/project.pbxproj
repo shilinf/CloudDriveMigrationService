@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CE15E2A5FDA891811EDE186 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61382824A2BE3A4E121064B3 /* libPods.a */; };
+		10E0DD3D1B6763B90069B218 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0DD3C1B6763B90069B218 /* DropboxSDK.framework */; };
+		10E0DD3F1B67640B0069B218 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0DD3E1B67640B0069B218 /* Security.framework */; };
+		10E0DD411B6764180069B218 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E0DD401B6764180069B218 /* QuartzCore.framework */; };
 		10E137051B67351000EC560B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E137041B67351000EC560B /* main.m */; };
 		10E137081B67351000EC560B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E137071B67351000EC560B /* AppDelegate.m */; };
 		10E1370B1B67351000EC560B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1370A1B67351000EC560B /* ViewController.m */; };
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10E0DD3C1B6763B90069B218 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		10E0DD3E1B67640B0069B218 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		10E0DD401B6764180069B218 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		10E136FF1B67351000EC560B /* CloudDriveMigrationServiceIOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudDriveMigrationServiceIOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E137031B67351000EC560B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10E137041B67351000EC560B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		10E137181B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudDriveMigrationServiceIOSClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E1371D1B67351000EC560B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10E1371E1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudDriveMigrationServiceIOSClientTests.m; sourceTree = "<group>"; };
+		2862F9E2F581B3A00260C2C1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		58923F608C7B66514D01AD6A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		61382824A2BE3A4E121064B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E0DD411B6764180069B218 /* QuartzCore.framework in Frameworks */,
+				10E0DD3F1B67640B0069B218 /* Security.framework in Frameworks */,
+				10E0DD3D1B6763B90069B218 /* DropboxSDK.framework in Frameworks */,
+				0CE15E2A5FDA891811EDE186 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,8 @@
 				10E137011B67351000EC560B /* CloudDriveMigrationServiceIOSClient */,
 				10E1371B1B67351000EC560B /* CloudDriveMigrationServiceIOSClientTests */,
 				10E137001B67351000EC560B /* Products */,
+				731C44FE0D8EFEAE0A96C958 /* Pods */,
+				52012D9CDF3F70DD0FE1FBED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +97,8 @@
 		10E137011B67351000EC560B /* CloudDriveMigrationServiceIOSClient */ = {
 			isa = PBXGroup;
 			children = (
+				10E0DD3C1B6763B90069B218 /* DropboxSDK.framework */,
+				10E1372C1B6742E400EC560B /* Resources */,
 				10E137061B67351000EC560B /* AppDelegate.h */,
 				10E137071B67351000EC560B /* AppDelegate.m */,
 				10E137091B67351000EC560B /* ViewController.h */,
@@ -119,6 +137,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		10E1372C1B6742E400EC560B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		52012D9CDF3F70DD0FE1FBED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E0DD401B6764180069B218 /* QuartzCore.framework */,
+				10E0DD3E1B67640B0069B218 /* Security.framework */,
+				61382824A2BE3A4E121064B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		731C44FE0D8EFEAE0A96C958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2862F9E2F581B3A00260C2C1 /* Pods.debug.xcconfig */,
+				58923F608C7B66514D01AD6A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10E137221B67351000EC560B /* Build configuration list for PBXNativeTarget "CloudDriveMigrationServiceIOSClient" */;
 			buildPhases = (
+				AB9ADFFD6997C930CA602FA3 /* Check Pods Manifest.lock */,
 				10E136FB1B67351000EC560B /* Sources */,
 				10E136FC1B67351000EC560B /* Frameworks */,
 				10E136FD1B67351000EC560B /* Resources */,
+				799B29249DEEC24AD12566AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +259,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		799B29249DEEC24AD12566AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9ADFFD6997C930CA602FA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10E136FB1B67351000EC560B /* Sources */ = {
@@ -347,8 +426,14 @@
 		};
 		10E137231B67351000EC560B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2862F9E2F581B3A00260C2C1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CloudDriveMigrationServiceIOSClient",
+				);
 				INFOPLIST_FILE = CloudDriveMigrationServiceIOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +442,14 @@
 		};
 		10E137241B67351000EC560B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58923F608C7B66514D01AD6A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CloudDriveMigrationServiceIOSClient",
+				);
 				INFOPLIST_FILE = CloudDriveMigrationServiceIOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -388,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -418,6 +511,7 @@
 				10E137241B67351000EC560B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10E137251B67351000EC560B /* Build configuration list for PBXNativeTarget "CloudDriveMigrationServiceIOSClientTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +520,7 @@
 				10E137271B67351000EC560B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

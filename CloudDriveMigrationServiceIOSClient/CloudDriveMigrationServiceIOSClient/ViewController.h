@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <LiveSDK/LiveConnectClient.h>
+#import <DropboxSDK/DropboxSDK.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<LiveAuthDelegate, LiveOperationDelegate,
+LiveDownloadOperationDelegate, LiveUploadOperationDelegate>
+@property (strong, nonatomic) LiveConnectClient *liveClient;
+@property (strong, nonatomic) UILabel *infoLabel;
 
 
 @end
