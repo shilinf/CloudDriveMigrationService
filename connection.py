@@ -33,13 +33,10 @@ class OneDrive(BaseDrive):
     def push(self, myfile, temp_filename):
         myUrl = 'https://api.onedrive.com/v1.0/drive/root:'+ r'/'.join([quote(s) for s in re.split(r'\/', myfile.path)])+':/content?'\
                 + urlencode({'access_token': self.token})
-        print myUrl
         with open(temp_filename) as fh:
             mydata = fh.read()
             response = requests.put(myUrl, 
-                data=mydata,
-                )
-            print json.dumps(json.loads(response.content), indent = 2)
+                data=mydata,)
 
 
 
@@ -49,14 +46,14 @@ class DropBox(BaseDrive):
         APP_KEY = '5a91csqjtsujuw7'
         APP_SECRET = 'x5wbkk2o273jqz7'
         session = DropboxSession(APP_KEY, APP_SECRET)
-        access_key, access_secret = token.split()
+        print token
+        access_key, access_secret = token.split(',')
         session.set_token(access_key, access_secret)
         first_client = DropboxClient(session)
         token1 = first_client.create_oauth2_access_token()
         self.client = DropboxClient(token1)
     def ls(self, path):
         folder_metadata = self.client.metadata(path)
-        #json_metadata = json.dumps(folder_metadata, indent=2)
         contents = folder_metadata['contents']
         files = []
         for content in contents:
